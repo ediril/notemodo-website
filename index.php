@@ -11,7 +11,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
                 <img src="logo-sm.png" alt="Notemodo">
                 Notemodo
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -45,7 +45,7 @@
                         <a class="nav-link btn-nav-cta" href="#newsletter">Get Updates</a>
                     </li>
                 </ul>
-            </div>
+            </div>-->
         </div>
     </nav>
 
@@ -57,8 +57,8 @@
                     <div class="hero-content">
                         <h1 class="hero-title pb-4 opacity-85">From Apple Notes to Blog Posts</h1>
                         <h2 class="fs-4 opacity-75 pb-4 mx-auto" style="max-width: 600px;">
-                            Notemodo effortlessly publishes your Apple Notes to an SEO-friendly blog. No coding or design skills required, just write and publish.
-                            Join the waitlist to be the first to turn your thoughts and ideas into published content.
+                            Notemodo automatically publishes your Apple Notes to an SEO-friendly blog.
+                            No coding or design skills required, just write and publish.
                         </h2>
                         <br>
                         <div class="hero-buttons">
@@ -76,7 +76,6 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-4 fw-bold mb-3" style="color: var(--dark-blue);">Why Choose Notemodo?</h2>
-                <p class="fs-5 text-muted mx-auto" style="max-width: 600px;">Experience the perfect bridge between your private notes and public sharing</p>
             </div>
             <div class="row g-4">
                 <div class="col-lg-6 col-xl-4">
@@ -85,7 +84,7 @@
                             <div class="feature-icon me-3">📝</div>
                             <h3 class="h5 fw-bold mb-0" style="color: var(--dark-blue);">Native Apple Notes Integration</h3>
                         </div>
-                        <p class="text-muted">Coming soon: Direct connection to your Apple Notes app. No need to copy and paste - publish directly from your notes.</p>
+                        <p class="text-muted">Direct connection to your Apple Notes app. No need to copy and paste - publish directly from your notes.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-4">
@@ -94,16 +93,7 @@
                             <div class="feature-icon me-3">✨</div>
                             <h3 class="h5 fw-bold mb-0" style="color: var(--dark-blue);">Beautiful Formatting</h3>
                         </div>
-                        <p class="text-muted">Smart formatting engine that will automatically convert your notes into stunning blog posts with perfect styling.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-4">
-                    <div class="feature-card h-100">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="feature-icon me-3">🚀</div>
-                            <h3 class="h5 fw-bold mb-0" style="color: var(--dark-blue);">One-Click Publishing</h3>
-                        </div>
-                        <p class="text-muted">One-click publishing system to instantly share your ideas with the world in seconds, not hours.</p>
+                        <p class="text-muted">Smart formatting engine that will automatically convert your notes into beautiful blog posts with perfect styling.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-4">
@@ -113,15 +103,6 @@
                             <h3 class="h5 fw-bold mb-0" style="color: var(--dark-blue);">Customizable Themes</h3>
                         </div>
                         <p class="text-muted">Beautiful, customizable blog themes that will match your style and personality. Make your blog uniquely yours.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-4">
-                    <div class="feature-card h-100">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="feature-icon me-3">📱</div>
-                            <h3 class="h5 fw-bold mb-0" style="color: var(--dark-blue);">Cross-Platform Sync</h3>
-                        </div>
-                        <p class="text-muted">Seamless synchronization across iPhone, iPad, and Mac. Your content will stay perfectly synced across all devices.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-4">
@@ -138,7 +119,7 @@
     </section>
 
     <!-- Stats Section -->
-    <section class="py-5 text-white" style="background: var(--dark-blue);">
+    <!--<section class="py-5 text-white" style="background: var(--dark-blue);">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-6 text-center p-3">
@@ -159,47 +140,23 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!-- Email Capture Section -->
     <section id="newsletter" class="py-5" style="background: linear-gradient(135deg, #f8fafc 0%, #e8f4fd 100%);">
         <div class="container">
             <div class="email-capture-card text-center">
-                <h3 class="display-5 fw-bold mb-3" style="color: var(--dark-blue);">Stay in the Loop</h3>
-                <p class="fs-5 text-muted mb-4">
-                    Get early access, beta updates, and exclusive tips for turning your notes into engaging blog content.
-                </p>
-                
+                <h2 class="display-4 fw-bold mb-3">Get Early Access</h2>
+                <p class="fs-5 mb-4 opacity-75">Stay in the loop and be among the first to know when we are ready to launch.</p>
+
                 <form class="d-flex gap-3 justify-content-center mx-auto mb-3" style="max-width: 400px;" action="#" method="POST">
                     <input type="email" class="email-input flex-fill" placeholder="Enter your email address" required>
-                    <button type="submit" class="email-submit">Join Waitlist</button>
+                    <button type="submit" class="email-submit">Join</button>
                 </form>
                 
-                <div class="d-flex justify-content-center gap-4 flex-wrap">
-                    <div class="email-benefit text-muted">Early access to new features</div>
-                    <div class="email-benefit text-muted">Exclusive blogging tips & tricks</div>
-                    <div class="email-benefit text-muted">No spam, unsubscribe anytime</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Call to Action Section -->
-    <section id="download" class="py-5 text-white text-center" style="background: var(--accent-gradient);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h2 class="display-4 fw-bold mb-3">Get Early Access</h2>
-                    <p class="fs-5 mb-4 opacity-75">Be among the first to experience the future of note-to-blog publishing when we launch.</p>
-                    <div class="d-flex flex-wrap justify-content-center gap-3 mb-3">
-                        <a href="#newsletter" class="download-btn text-decoration-none">
-                            ✉️ Join Our Waitlist
-                        </a>
-                        <a href="#features" class="download-btn text-decoration-none">
-                            🔍 Explore Features
-                        </a>
-                    </div>
-                    <p class="opacity-75">Coming soon • Free to try • Be the first to know</p>
+                <div class="d-flex justify-content-center pt-3 gap-4 flex-wrap">
+                    <div class="email-benefit text-muted">Early access</div>
+                    <div class="email-benefit text-muted">Special pricing</div>
                 </div>
             </div>
         </div>
