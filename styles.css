@@ -237,7 +237,7 @@ body {
     background-clip: text;
 }
 
-/* Email Form - Custom styles */
+/* Email Form - Custom styles */  
 .email-capture-card {
     background: white;
     border-radius: 20px;
@@ -283,6 +283,10 @@ body {
     color: #22c55e;
     font-weight: bold;
     margin-right: 8px;
+}
+
+.email-capture-card input[type="email"] {
+      color: #333 !important;
 }
 
 /* Responsive adjustments */
