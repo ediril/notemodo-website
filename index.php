@@ -57,7 +57,7 @@
             <div class="row justify-content-center text-center">
                 <div class="col-lg-10">
                     <div class="hero-content">
-                        <h1 class="hero-title pb-4 opacity-85">From Apple Notes to Blog Posts</h1>
+                        <h1 class="hero-title pb-4 opacity-85">From Apple Notes<br>to Blog Posts</h1>
                         <h2 class="fs-4 hero-subtitle pb-4 mx-auto" style="max-width: 600px;">
                             <span class="gradient-accent">Notemodo automatically publishes</span> your Apple Notes to an SEO-friendly blog.
                             No coding or design skills required, just write and publish.
