@@ -49,8 +49,30 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    drop-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
+}
+
+.hero-subtitle {
+    opacity: 0.85;
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 1.35rem;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.gradient-accent {
+    background: linear-gradient(135deg, #ffffff 0%, #a8e6cf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 500;
+}
+
+/* Section Labels */
+.section-label {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
 }
 
 /* Feature Cards - Custom hover effects */

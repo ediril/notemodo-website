@@ -56,8 +56,8 @@
                 <div class="col-lg-10">
                     <div class="hero-content">
                         <h1 class="hero-title pb-4 opacity-85">From Apple Notes to Blog Posts</h1>
-                        <h2 class="fs-4 opacity-75 pb-4 mx-auto" style="max-width: 600px;">
-                            Notemodo automatically publishes your Apple Notes to an SEO-friendly blog.
+                        <h2 class="fs-4 hero-subtitle pb-4 mx-auto" style="max-width: 600px;">
+                            <span class="gradient-accent">Notemodo automatically publishes</span> your Apple Notes to an SEO-friendly blog.
                             No coding or design skills required, just write and publish.
                         </h2>
                         <br>
@@ -75,6 +75,7 @@
     <section id="features" class="py-5" style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);">
         <div class="container">
             <div class="text-center mb-5">
+                <p class="text-uppercase fw-semibold mb-2 section-label">A Unique Blogging Platform</p>
                 <h2 class="display-4 fw-bold mb-3" style="color: var(--dark-blue);">Why Choose Notemodo?</h2>
             </div>
             <div class="row g-4">
