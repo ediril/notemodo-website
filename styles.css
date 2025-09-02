@@ -237,6 +237,10 @@ body {
     background-clip: text;
 }
 
+#cta-action {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
 /* Email Form - Custom styles */  
 .email-capture-card {
     background: white;

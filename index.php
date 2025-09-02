@@ -65,7 +65,7 @@
                         <br>
                         <div class="hero-buttons">
                             <a href="#features" class="btn-hero btn-primary-hero me-2">Learn More</a>
-                            <a href="#newsletter" class="btn-hero btn-secondary-hero">Join Waitlist</a>
+                            <a href="#cta-action" class="btn-hero btn-secondary-hero">Join Waitlist</a>
                         </div>
                     </div>
                 </div>
@@ -146,11 +146,11 @@
     </section>-->
 
     <!-- Email Capture Section -->
-    <section id="newsletter" class="py-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+    <section id="cta-action" class="py-5">
         <div class="container">
             <div class="email-capture-card text-center">
                 <h2 class="display-4 fw-bold mb-3">Join the Waitlist</h2>
-                <p class="fs-5 opacity-75">Stay in the loop and be the first to know when launch</p>
+                <p class="fs-5 opacity-75">Stay in the loop and be the first to know when we launch</p>
                 <div class="d-flex justify-content-center pb-3 mb-3 gap-4 flex-wrap">
                     <div class="email-benefit text-muted">Early access</div>
                     <div class="email-benefit text-muted">Special pricing</div>
