@@ -31,11 +31,7 @@ include 'partials/hero.php';
                         <p class="text-muted mb-4">Your Apple Notes remain private and secure. We only access the notes you explicitly choose to publish through our service.</p>
                         
                         <h3 class="h4 fw-bold mb-4 mt-5" style="color: var(--dark-blue);">Contact Us</h3>
-                        <p class="text-muted mb-4">If you have any questions about this Privacy Policy, please contact us.</p>
-                        
-                        <div class="mt-5">
-                            <a href="index.php" class="btn btn-outline-primary">Back to Home</a>
-                        </div>
+                        <p class="text-muted mb-4">If you have any questions about this Privacy Policy, please contact us at <a href="mailto:support@notemodo.com" class="text-decoration-none" style="color: var(--primary-blue);">support@notemodo.com</a>.</p>
                     </div>
                 </div>
             </div>

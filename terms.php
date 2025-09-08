@@ -21,9 +21,6 @@ include 'partials/hero.php';
                         <h3 class="h4 fw-bold mb-4" style="color: var(--dark-blue);">Acceptance of Terms</h3>
                         <p class="text-muted mb-4">By using Notemodo, you agree to be bound by these Terms of Service and all applicable laws and regulations.</p>
                         
-                        <h3 class="h4 fw-bold mb-4 mt-5" style="color: var(--dark-blue);">Use License</h3>
-                        <p class="text-muted mb-4">Permission is granted to use Notemodo for personal and commercial blogging purposes in accordance with these terms.</p>
-                        
                         <h3 class="h4 fw-bold mb-4 mt-5" style="color: var(--dark-blue);">Content Ownership</h3>
                         <p class="text-muted mb-4">You retain ownership of all content you publish through Notemodo. We do not claim ownership of your Apple Notes or blog posts.</p>
                         
@@ -39,9 +36,8 @@ include 'partials/hero.php';
                         <h3 class="h4 fw-bold mb-4 mt-5" style="color: var(--dark-blue);">Changes to Terms</h3>
                         <p class="text-muted mb-4">We reserve the right to modify these terms at any time. Continued use of the service constitutes acceptance of updated terms.</p>
                         
-                        <div class="mt-5">
-                            <a href="index.php" class="btn btn-outline-primary">Back to Home</a>
-                        </div>
+                        <h3 class="h4 fw-bold mb-4 mt-5" style="color: var(--dark-blue);">Questions</h3>
+                        <p class="text-muted mb-4">If you have any questions about these Terms of Service, please contact us at <a href="mailto:support@notemodo.com" class="text-decoration-none" style="color: var(--primary-blue);">support@notemodo.com</a>.</p>
                     </div>
                 </div>
             </div>

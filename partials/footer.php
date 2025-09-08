@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="mb-3">
-                        <a href="blog.php" class="text-white-50 me-3 text-decoration-none">Blog</a>
-                        <a href="privacy.php" class="text-white-50 me-3 text-decoration-none">Privacy</a>
-                        <a href="terms.php" class="text-white-50 text-decoration-none">Terms</a>
+                        <a href="blog.php" class="text-white-50 me-3 text-decoration-none footer-link">Blog</a>
+                        <a href="privacy.php" class="text-white-50 me-3 text-decoration-none footer-link">Privacy</a>
+                        <a href="terms.php" class="text-white-50 text-decoration-none footer-link">Terms</a>
                     </div>
                     <p class="mb-0">🌘 Newmoon Software &copy; <?php echo date('Y'); ?> All rights reserved</p>
                 </div>
