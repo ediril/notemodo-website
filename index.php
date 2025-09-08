@@ -3,29 +3,10 @@
 <html lang="en">
 <?php include 'partials/head.php'; ?>
 <body>
-<?php include 'partials/navbar.php'; ?>
-
-    <!-- Hero Section -->
-    <section class="hero-section d-flex align-items-start text-white">
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-10">
-                    <div class="hero-content">
-                        <h1 class="hero-title pb-4 opacity-85">From Apple Notes<br>to Blog Posts</h1>
-                        <h2 class="fs-4 hero-subtitle pb-4 mx-auto" style="max-width: 600px;">
-                            <span class="gradient-accent">Notemodo automatically publishes</span> your Apple Notes to an SEO-friendly blog.
-                            No coding or design skills required, just write and publish.
-                        </h2>
-                        <br>
-                        <div class="hero-buttons">
-                            <a href="#features" class="btn-hero btn-primary-hero me-2">Learn More</a>
-                            <a href="#cta-action" class="btn-hero btn-secondary-hero">Join Waitlist</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<?php 
+$heroButtons = true;
+include 'partials/hero.php'; 
+?>
 
     <!-- Features Section -->
     <section id="features" class="py-5" style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);">

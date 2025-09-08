@@ -17,9 +17,8 @@ body {
 .hero-section {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     position: relative;
-    min-height: 96vh;
+    min-height: 90vh;
     overflow: hidden;
-    padding-top: 120px;
 }
 
 .hero-section::before {
@@ -36,7 +35,6 @@ body {
 }
 
 .hero-content {
-    padding-top: 50px;
     position: relative;
     z-index: 2;
 }
@@ -181,9 +179,7 @@ body {
 
 /* Navigation */
 .navbar-custom {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: transparent;
     padding: 1rem 0;
 }
 
@@ -191,8 +187,8 @@ body {
     display: flex;
     align-items: center;
     font-weight: 700;
-    color: var(--dark-blue) !important;
-    font-size: 1.5rem;
+    color: white !important;
+    font-size: 2rem;
     text-decoration: none;
 }
 

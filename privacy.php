@@ -6,23 +6,11 @@ $pageDescription = 'Learn about how Notemodo protects your privacy and handles y
 <html lang="en">
 <?php include 'partials/head.php'; ?>
 <body>
-<?php include 'partials/navbar.php'; ?>
-
-    <!-- Hero Section -->
-    <section class="hero-section d-flex align-items-start text-white">
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-10">
-                    <div class="hero-content">
-                        <h1 class="hero-title pb-4 opacity-85">Privacy Policy</h1>
-                        <h2 class="fs-4 hero-subtitle pb-4 mx-auto" style="max-width: 600px;">
-                            <span class="gradient-accent">Your privacy matters</span> to us. Learn how we protect your personal information.
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<?php 
+$heroTitle = 'Privacy Policy';
+$heroSubtitle = '<span class="gradient-accent">Your privacy matters</span> to us. Learn how we protect your personal information.';
+include 'partials/hero.php'; 
+?>
 
     <!-- Privacy Content Section -->
     <section id="privacy-content" class="py-5" style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);">

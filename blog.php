@@ -6,23 +6,11 @@ $pageDescription = 'Read the latest news and updates from Notemodo about Apple N
 <html lang="en">
 <?php include 'partials/head.php'; ?>
 <body>
-<?php include 'partials/navbar.php'; ?>
-
-    <!-- Hero Section -->
-    <section class="hero-section d-flex align-items-start text-white">
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-10">
-                    <div class="hero-content">
-                        <h1 class="hero-title pb-4 opacity-85">Notemodo Blog</h1>
-                        <h2 class="fs-4 hero-subtitle pb-4 mx-auto" style="max-width: 600px;">
-                            <span class="gradient-accent">Stay updated</span> with the latest news, tips, and insights about Apple Notes and blogging.
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<?php 
+$heroTitle = 'Notemodo Blog';
+$heroSubtitle = '<span class="gradient-accent">Stay updated</span> with the latest news, tips, and insights about Apple Notes and blogging.';
+include 'partials/hero.php'; 
+?>
 
     <!-- Blog Posts Section -->
     <section id="blog-posts" class="py-5" style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);">
