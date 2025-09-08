@@ -1,55 +1,9 @@
 <?php require_once 'collectiq/component/WaitlistComponent.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notemodo - Publish Your Apple Notes to a Blog</title>
-    <meta name="description" content="Transform your Apple Notes into beautiful blog posts with Notemodo. Seamlessly publish your thoughts and ideas from Apple Notes to your personal blog.">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Component CSS -->
-    <link rel="stylesheet" href="/collectiq/component/assets/waitlist.css">
-
-    <!-- Custom CSS -->
-    <link href="styles.css" rel="stylesheet">
-</head>
+<?php include 'partials/head.php'; ?>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.php">
-                <img src="logo-sm.png" alt="Notemodo">
-                Notemodo
-            </a>
-            <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pricing.php">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#newsletter">Waitlist</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-nav-cta" href="#newsletter">Get Updates</a>
-                    </li>
-                </ul>
-            </div>-->
-        </div>
-    </nav>
+<?php include 'partials/navbar.php'; ?>
 
     <!-- Hero Section -->
     <section class="hero-section d-flex align-items-start text-white">
@@ -163,33 +117,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-4 text-white" style="background: var(--dark-blue);">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p class="mb-0">🌘 Newmoon Software &copy; <?php echo date('Y'); ?> All rights reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script src="/collectiq/component/assets/waitlist.js"></script>
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    </script>
+<?php include 'partials/footer.php'; ?>
 </body>
 </html>
