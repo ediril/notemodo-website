@@ -1,7 +1,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="/">
                 <img src="logo-sm.png" alt="Notemodo">
                 Notemodo
             </a>

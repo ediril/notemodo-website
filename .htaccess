@@ -12,20 +12,15 @@ RewriteRule ^(.*)$ https://notemodo.com/$1 [L,R=301]
 RewriteCond %{HTTP_HOST} !^notemodo\.com$ [NC]
 RewriteRule ^ - [R=404,L]
 
-# Remove .php extension from URLs
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
-# Redirect .php extension to clean URLs
-RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
-RewriteRule ^ /%1 [NC,L,R=301]
-
-# If the requested file or directory exists, serve it directly
+# Handle clean URLs - serve .php files for clean URLs
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/?$ $1.php [NC,L]
 
-# Otherwise, route everything to index.php
+# Default to index.php for root and other requests
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [L,QSA]
 
 # Allow direct access to static files
