@@ -20,6 +20,23 @@ include 'partials/hero.php';
                     <?php 
                     $blogPosts = [
                         [
+                            'date' => '2025-09-07',
+                            'title' => 'Publish or Not Publish',
+                            'content' => "I worked on a couple of things today:
+
+                            • Improved the app so it can better detect whether you just added a #publish tag or made more substantial changes to a note. If you just added the tag to publish a note, it will keep the original last modified time of the note so you don't lose that metadata.
+                            
+                            • The MVP I built uses pandoc to convert ...
+                            
+                            Oh wait, let me first tell you an important side-benefit you get from using Notemodo. Just like every Apple Notes user, I'm also interested in being able to export my notes. It is a pain though since Apple doesn't make that easy. Well folks, Notemodo makes it possible and easy! 
+                            
+                            Currently it will only export the notes that you want to publish, but if it proves to be as valuable as I think it will be, we can make it an offical feature we support.
+
+                            Ok going back to the what I did I was saying, the MVP I built exports a note as markdown file and then uses pandoc to convert it to HTML. 
+                            
+                            Pandoc is a great, but I decided to move away from it because it makes web templates hard to implement. Instead, we'll use golang templates, which could open up the door to using things like Hugo templates."
+                        ],
+                        [
                             'date' => '2025-08-26',
                             'title' => 'Hello World',
                             'content' => "I'm excited to launch the Notemodo blog because the very MVP version of this app is complete as of today. And what is that? I can add a #publish to a note in Apple Notes and watch it go live on my blog!
@@ -40,7 +57,11 @@ include 'partials/hero.php';
                     
                     foreach ($blogPosts as $post): 
                     ?>
-                    <article class="feature-card mb-4 overflow-hidden">
+                    <?php 
+                    // Create a URL-friendly slug from the title
+                    $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $post['title']), '-'));
+                    ?>
+                    <article class="feature-card mb-4 overflow-hidden" id="<?php echo $slug; ?>">
                         <div class="p-4">
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <div class="d-flex gap-3 text-muted small">
@@ -49,7 +70,7 @@ include 'partials/hero.php';
                             </div>
                             
                             <h3 class="h4 mb-3" style="color: var(--dark-blue);">
-                                <?php echo htmlspecialchars($post['title']); ?>
+                                <a href="#<?php echo $slug; ?>" class="text-decoration-none" style="color: var(--dark-blue);"><?php echo htmlspecialchars($post['title']); ?></a>
                             </h3>
                             
                             <div class="text-muted mb-0"><?php echo nl2br(htmlspecialchars($post['content'])); ?></div>
