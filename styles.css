@@ -320,6 +320,20 @@ body {
     transform: scaleX(1);
 }
 
+/* Anchor link styling and scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Offset anchors to account for any fixed headers */
+[id]::before {
+    content: '';
+    display: block;
+    height: 20px;
+    margin-top: -20px;
+    visibility: hidden;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .hero-title {
