@@ -20,6 +20,23 @@ include 'partials/hero.php';
                     <?php 
                     $blogPosts = [
                         [
+                            'date' => '2025-09-28',
+                            'title' => 'Waitlist',
+                            'content' => "Now that there are some folks in the waitlist, I need to update them periodically. I researched tools to send emails a bit. The contenders are: MailerLite, Kit, Beehiiv, SendPulse, EmailOctopus
+
+                                         I asked Perplexity and ChatGPT, they both recommended MailerLite or EmailOctopus since I don’t need anything heavy to get started but have enough room to grow."
+                        ],
+
+                        [
+                            'date' => '2025-09-25',
+                            'title' => 'A New Direction',
+                            'content' => "One tricky bit of Notemodo is that it has to have a local component that exports the Apple Notes db. 
+
+                                        This is a protected file so it requires the user to install a small module and give it permissions to do so. I want to keep that bit as small as possible so fewer things can go wrong. 
+
+                                        The rest of the functionality will be in the cloud where I can easily control/upgrade/modify without having to update the local module."
+                        ],
+                        [
                             'date' => '2025-09-07',
                             'title' => 'Publish or Not Publish',
                             'content' => "I worked on a couple of things today:
